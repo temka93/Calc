@@ -21,7 +21,7 @@ namespace calc
         {
             return a * b;
         }
-        public float Dev(float a, float b)
+        public double Dev(float a, float b)
         {
             return a / b;
         }

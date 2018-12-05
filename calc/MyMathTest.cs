@@ -83,7 +83,7 @@ namespace calc
             public void IsDevInteger()
             {
                 MyMath math = new MyMath();
-                Assert.IsInstanceOf(typeof(int) , math.Dev(10, 20));
+                Assert.IsInstanceOf(typeof(double), math.Dev(20, 20));
             }
         }
     }
