@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="9" result="Failed" total="9" passed="5" failed="4" inconclusive="0" skipped="0" asserts="9" engine-version="3.9.0.0" clr-version="4.0.30319.42000" start-time="2018-12-05 16:52:00Z" end-time="2018-12-05 16:52:01Z" duration="1.106610">
+  <command-line><![CDATA[nunit3-console.exe  C:\Users\Administrator\source\repos\calc\calc\bin\Debug\calc.dll --result=C:\Users\Administrator\source\repos\calc\calc\tests\test.xml]]></command-line>
+  <test-suite type="Assembly" id="0-1022" name="calc.dll" fullname="calc.dll" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.236796" total="9" passed="5" failed="4" warnings="0" inconclusive="0" skipped="0" asserts="9">
+    <environment framework-version="3.11.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.14393.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit.org\nunit-console" machine-name="EC2AMAZ-LE68PGQ" user="Administrator" user-domain="EC2AMAZ-LE68PGQ" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Program Files (x86)\NUnit.org\nunit-console" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="2" />
+    </settings>
+    <properties>
+      <property name="_PID" value="6924" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1023" name="calc" fullname="calc" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.210171" total="9" passed="5" failed="4" warnings="0" inconclusive="0" skipped="0" asserts="9">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="0-1000" name="MyMathTest+Tests_Add" fullname="calc.MyMathTest+Tests_Add" classname="calc.MyMathTest+Tests_Add" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.177395" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="2">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1004" name="TestAddNegative" fullname="calc.MyMathTest+Tests_Add.TestAddNegative" classname="calc.MyMathTest+Tests_Add" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.150414" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1003" name="TestAddNegative()" fullname="calc.MyMathTest+Tests_Add.TestAddNegative()" methodname="TestAddNegative" classname="calc.MyMathTest+Tests_Add" runstate="Runnable" seed="2095259646" result="Failed" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.140710" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 45
+  But was:  30
+]]></message>
+              <stack-trace><![CDATA[   at calc.MyMathTest.Tests_Add.TestAddNegative() in C:\Users\Administrator\source\repos\calc\calc\MyMathTest.cs:line 27
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 45
+  But was:  30
+]]></message>
+                <stack-trace><![CDATA[   at calc.MyMathTest.Tests_Add.TestAddNegative() in C:\Users\Administrator\source\repos\calc\calc\MyMathTest.cs:line 27
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1002" name="TestAddPositive" fullname="calc.MyMathTest+Tests_Add.TestAddPositive" classname="calc.MyMathTest+Tests_Add" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.001394" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="0-1001" name="TestAddPositive()" fullname="calc.MyMathTest+Tests_Add.TestAddPositive()" methodname="TestAddPositive" classname="calc.MyMathTest+Tests_Add" runstate="Runnable" seed="866925080" result="Passed" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.000479" asserts="1" />
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1015" name="MyMathTest+Tests_Dev" fullname="calc.MyMathTest+Tests_Dev" classname="calc.MyMathTest+Tests_Dev" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.018088" total="3" passed="2" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="3">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1021" name="IsDevInteger" fullname="calc.MyMathTest+Tests_Dev.IsDevInteger" classname="calc.MyMathTest+Tests_Dev" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.004595" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="0-1020" name="IsDevInteger()" fullname="calc.MyMathTest+Tests_Dev.IsDevInteger()" methodname="IsDevInteger" classname="calc.MyMathTest+Tests_Dev" runstate="Runnable" seed="911775548" result="Passed" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.002543" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1019" name="TestDevNegative" fullname="calc.MyMathTest+Tests_Dev.TestDevNegative" classname="calc.MyMathTest+Tests_Dev" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.003654" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1018" name="TestDevNegative()" fullname="calc.MyMathTest+Tests_Dev.TestDevNegative()" methodname="TestDevNegative" classname="calc.MyMathTest+Tests_Dev" runstate="Runnable" seed="1099305673" result="Failed" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.003601" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 45
+  But was:  0.5d
+]]></message>
+              <stack-trace><![CDATA[   at calc.MyMathTest.Tests_Dev.TestDevNegative() in C:\Users\Administrator\source\repos\calc\calc\MyMathTest.cs:line 79
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 45
+  But was:  0.5d
+]]></message>
+                <stack-trace><![CDATA[   at calc.MyMathTest.Tests_Dev.TestDevNegative() in C:\Users\Administrator\source\repos\calc\calc\MyMathTest.cs:line 79
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1017" name="TestDevPositive" fullname="calc.MyMathTest+Tests_Dev.TestDevPositive" classname="calc.MyMathTest+Tests_Dev" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.000277" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="0-1016" name="TestDevPositive()" fullname="calc.MyMathTest+Tests_Dev.TestDevPositive()" methodname="TestDevPositive" classname="calc.MyMathTest+Tests_Dev" runstate="Runnable" seed="1814537689" result="Passed" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.000225" asserts="1" />
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1010" name="MyMathTest+Tests_Mul" fullname="calc.MyMathTest+Tests_Mul" classname="calc.MyMathTest+Tests_Mul" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.001939" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="2">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1014" name="TestMulNegative" fullname="calc.MyMathTest+Tests_Mul.TestMulNegative" classname="calc.MyMathTest+Tests_Mul" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.001530" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1013" name="TestMulNegative()" fullname="calc.MyMathTest+Tests_Mul.TestMulNegative()" methodname="TestMulNegative" classname="calc.MyMathTest+Tests_Mul" runstate="Runnable" seed="1401635503" result="Failed" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.001484" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 45
+  But was:  200
+]]></message>
+              <stack-trace><![CDATA[   at calc.MyMathTest.Tests_Mul.TestMulNegative() in C:\Users\Administrator\source\repos\calc\calc\MyMathTest.cs:line 62
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 45
+  But was:  200
+]]></message>
+                <stack-trace><![CDATA[   at calc.MyMathTest.Tests_Mul.TestMulNegative() in C:\Users\Administrator\source\repos\calc\calc\MyMathTest.cs:line 62
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1012" name="TestMulPositive" fullname="calc.MyMathTest+Tests_Mul.TestMulPositive" classname="calc.MyMathTest+Tests_Mul" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.000238" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="0-1011" name="TestMulPositive()" fullname="calc.MyMathTest+Tests_Mul.TestMulPositive()" methodname="TestMulPositive" classname="calc.MyMathTest+Tests_Mul" runstate="Runnable" seed="1142747784" result="Passed" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.000195" asserts="1" />
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1005" name="MyMathTest+Tests_Sub" fullname="calc.MyMathTest+Tests_Sub" classname="calc.MyMathTest+Tests_Sub" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.002070" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="2">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1009" name="TestAddNegative" fullname="calc.MyMathTest+Tests_Sub.TestAddNegative" classname="calc.MyMathTest+Tests_Sub" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.001341" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1008" name="TestAddNegative()" fullname="calc.MyMathTest+Tests_Sub.TestAddNegative()" methodname="TestAddNegative" classname="calc.MyMathTest+Tests_Sub" runstate="Runnable" seed="153239639" result="Failed" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.001293" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 45
+  But was:  -10
+]]></message>
+              <stack-trace><![CDATA[   at calc.MyMathTest.Tests_Sub.TestAddNegative() in C:\Users\Administrator\source\repos\calc\calc\MyMathTest.cs:line 45
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 45
+  But was:  -10
+]]></message>
+                <stack-trace><![CDATA[   at calc.MyMathTest.Tests_Sub.TestAddNegative() in C:\Users\Administrator\source\repos\calc\calc\MyMathTest.cs:line 45
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1007" name="TestSubPositive" fullname="calc.MyMathTest+Tests_Sub.TestSubPositive" classname="calc.MyMathTest+Tests_Sub" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.000419" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="0-1006" name="TestSubPositive()" fullname="calc.MyMathTest+Tests_Sub.TestSubPositive()" methodname="TestSubPositive" classname="calc.MyMathTest+Tests_Sub" runstate="Runnable" seed="752931202" result="Passed" start-time="2018-12-05 16:52:01Z" end-time="2018-12-05 16:52:01Z" duration="0.000213" asserts="1" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
